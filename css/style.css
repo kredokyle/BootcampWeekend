@@ -11,6 +11,16 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Oswald', sans-serif;
 }
 
+h5{
+    font-size:19px;
+    line-height:25px;
+    font-weight: 700;
+}
+
+h6{
+    font-size:14px;
+}
+
 a{
     text-decoration:none;
     color:#fff;
@@ -25,22 +35,15 @@ a{
 
 nav .nav-wrapper .logo{
     float:left;
-    margin-top:-10px;
+    margin-top:-8px;
     width:60%;
-}
-
-nav .nav-wrapper .logo h3{
-    float:left;
-    margin-top:-10px;
-    width:60%;
-    text-transform:upper;
 }
 
 nav .nav-wrapper .nav-links{
     width:100%;
 }
 
-nav .nav-wrapper h3{
+nav .nav-wrapper h1{
     color:#312A26;
     font-size:30px;
 }
@@ -57,6 +60,12 @@ nav .nav-wrapper a{
     color:#312A26;
 }
 
+nav .nav-wrapper a:hover{
+    color:#c7a17a;
+}
+
+
+
 /* ATF */
 .atf{
     height: 670px;
@@ -68,7 +77,7 @@ nav .nav-wrapper a{
 }
 
 .atf .bg-image{
-    background-image:url(../images/atf-image.jpg);
+    background-image: url(../images/atf-image.jpg);
     background-color: #333333;
     background-position: center;
     background-size: cover;
@@ -80,8 +89,9 @@ nav .nav-wrapper a{
     width: 100%;
 }
 
-.atf h1{
+.atf .brandstamp{
     color: #312A26;
+    font-family: 'Oswald', sans-serif;
     font-size: 88px;
     font-style: normal;
     font-weight: 700;
@@ -161,14 +171,15 @@ section{
     background-color: royalblue;
 }
 
-.section-a h2{
-    font-size: 45px;
+.section-a .content-header{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
     line-height: 50px;
     position: absolute;
-    margin:50px;
+    margin:40px;
 }
 
-.section-a h6{
+.section-a .content-button{
     font-family: 'Open Sans', sans-serif;
     font-size:12px;
     font-weight: 400;
@@ -189,7 +200,7 @@ section{
     height: 900px;
 }
 
-.section-b h4{
+.section-b .sub-header{
     color: #c7a17a;
     font-family: 'Merriweather', serif;
     font-weight: 400;
@@ -197,12 +208,15 @@ section{
     font-style: italic;
     line-height: 27px;
     padding-bottom: 20px;
+    display:block;
 }
 
-.section-b h3{
+.section-b .header{
     color: #312A26;
     font-size: 35px;
     line-height: 40px;
+    display:block;
+    font-family: 'Oswald', sans-serif;
 }
 
 .section-b hr{
@@ -226,8 +240,6 @@ section{
 
 .section-b .box h5{
     color: #312A26;
-    font-size: 19px;
-    line-height: 25px;
 }
 
 .section-b .box .rating{
@@ -274,7 +286,7 @@ section{
     padding-bottom: 20px;
 }
 
-.section-c h2{
+.section-c .header{
     font-size: 55px;
     line-height: 60px;
     font-weight: 600;
@@ -316,7 +328,7 @@ section{
     padding: 20px 0px;
 }
 
-.section-d h4{
+.section-d .sub-header{
     color: #c7a17a;
     font-family: 'Merriweather', serif;
     font-weight: 400;
@@ -326,7 +338,7 @@ section{
     padding-bottom: 20px;
 }
 
-.section-d h3{
+.section-d .header{
     color: #312A26;
     font-size: 35px;
     line-height: 40px;
@@ -352,8 +364,6 @@ section{
 
 .section-d .box h5{
     color: #312A26;
-    font-size: 19px;
-    line-height: 25px;
 }
 
 .section-d .box .rating{
@@ -386,19 +396,17 @@ section{
 
 .section-column img{
     width: 100%;
-    background-color: royalblue;
 }
 
-.section-e h2{
-    font-size: 45px;
+.section-e .content-header{
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
     line-height: 50px;
     position: absolute;
-    margin:50px;
+    margin:40px;
 }
 
-.section-e h6{
-    color:#fff;
-    text-decoration: none;
+.section-e .content-button{
     font-family: 'Open Sans', sans-serif;
     font-size:12px;
     font-weight: 400;
@@ -407,6 +415,8 @@ section{
     position: absolute;
     margin-top: 190px;
     margin-left:50px;
+    color:#ffffff;
+    text-decoration:none;
 }
 
 /* Section F - Contact Us */
@@ -416,7 +426,7 @@ section{
     padding-bottom:0px;
 }
 
-.section-f h3{
+.section-f .header{
     color: #312A26;
     font-size: 35px;
     line-height: 40px;
@@ -425,7 +435,7 @@ section{
 
 
 .section-f hr{
-    color:#c7a17a ;
+    color:#c7a17a;
     width: 8%;
     border: 1px solid #c7a17a;
     margin: auto;
@@ -442,7 +452,7 @@ section{
 }
 
 .section-f input{
-    height: 40px;
+    height: 45px;
     text-indent: 10px;
 }
 
@@ -450,19 +460,6 @@ section{
     height:200px;
     resize:none;
     text-indent:10px;
-}
-
-.section-f .btn3:hover{
-    color:#000;
-    background-color: #312a2600;
-    text-decoration:none;
-    width: 60%;
-    border: 1px solid gray;
-    display: block;
-    text-align:center;
-    margin:auto;
-    padding-top:5px;
-    height:40px;
 }
 
 .section-f .btn3{
@@ -474,15 +471,27 @@ section{
     display: block;
     text-align:center;
     margin:auto;
-    padding-top:5px;
-    height:40px;
+    padding-top:10px;
+    height:45px;
+}
+
+.section-f .btn3:hover{
+    color:#000;
+    background-color: #312a2600;
+    text-decoration:none;
+    width: 60%;
+    border: 1px solid gray;
+    display: block;
+    text-align:center;
+    margin:auto;
+    padding-top:10px;
+    height:45px;
 }
 
 /* Section G - Footer 1*/
 .section-g{
     color: #fff;
     height:550px;
-
 }
 
 .section-g .column{
@@ -492,8 +501,47 @@ section{
     padding-top:80px;
 }
 
+.section-g .column h5{
+    font-size:inherit;
+}
+
+.section-g .column1 span{
+    font-family: 'Oswald', sans-serif;
+    font-size:14px;
+    line-height:33px;
+    font-weight:400;
+}
+
+.section-g .column2 span{
+    color:#c7a17a;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-g .column2 span{
+    font-family: 'Merriweather', serif;
+}
+
+.section-g .column3 .email{
+    color:#c7a17a;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-g .column3 .span{
+    color:#acacac;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-g .column4 span{
+    color:#acacac;
+    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .footer-image{
-    background-image:url(../images/footer-image.jpg);
+    background-image: url(../images/footer-image.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
