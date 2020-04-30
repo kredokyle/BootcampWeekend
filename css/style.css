@@ -511,11 +511,19 @@ section{
     color: grey;
   }
 
+  .section-f .section-wrapper .radio-button-group{
 
+      display:block;
+  }
 
+  .section-f .section-wrapper .radio-button-group input, .section-f .section-wrapper .radio-button-group label{
 
+    display:inline-block;
+}
 
-
+.section-f .section-wrapper .radio-button-group label{
+    margin-right:20px;
+}
 
 
 /* 
