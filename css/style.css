@@ -1,5 +1,6 @@
 *{
     margin:0;
+    padding:0;
     box-sizing: border-box;
 }
 
@@ -41,6 +42,7 @@ nav .nav-wrapper .logo{
 
 nav .nav-wrapper .nav-links{
     width:100%;
+    text-align:right;
 }
 
 nav .nav-wrapper h1{
@@ -54,7 +56,8 @@ nav .nav-wrapper ul{
 
 nav .nav-wrapper ul li{
     display:inline-block;
-    padding: 5px 10px;
+    padding: 5px 0;
+    padding-left:10px;
 }
 nav .nav-wrapper a{
     color:#312A26;
@@ -181,7 +184,7 @@ section{
 
 .section-a .content-button{
     font-family: 'Open Sans', sans-serif;
-    font-size:12px;
+    font-size:15px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 2px;
@@ -189,7 +192,7 @@ section{
     margin-top: 190px;
     margin-left:50px;
     color:#ffffff;
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 
@@ -223,8 +226,8 @@ section{
     color:#c7a17a ;
     width: 8%;
     border: 1px solid #c7a17a;
-    margin: auto;
-    margin-top: 20px;
+    margin:30px auto;
+
 }
 
 .section-b .box{
@@ -348,8 +351,7 @@ section{
     color:#c7a17a ;
     width: 8%;
     border: 1px solid #c7a17a;
-    margin: auto;
-    margin-top: 20px;
+    margin:50px auto;
 }
 
 .section-d .box{
@@ -408,7 +410,7 @@ section{
 
 .section-e .content-button{
     font-family: 'Open Sans', sans-serif;
-    font-size:12px;
+    font-size:14px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 2px;
@@ -416,7 +418,7 @@ section{
     margin-top: 190px;
     margin-left:50px;
     color:#ffffff;
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 /* Section F - Contact Us */
@@ -505,12 +507,14 @@ section{
     font-size:inherit;
 }
 
-.section-g .column1 span{
+.section-g .column1 table{
     font-family: 'Oswald', sans-serif;
     font-size:14px;
     line-height:33px;
     font-weight:400;
+    text-align:left;
 }
+
 
 .section-g .column2 span{
     color:#c7a17a;
