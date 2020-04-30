@@ -421,11 +421,12 @@ section{
     text-decoration:underline;
 }
 
-/* Section F - Contact Us */
+/* Section F - Reservation Form */
 
 .section-f{
     padding-top:50px;
     padding-bottom:0px;
+    height:1000px;
 }
 
 .section-f .header{
@@ -445,6 +446,79 @@ section{
     margin-bottom:50px;
 }
 
+
+.section-f .section-wrapper .column{
+    width:48%;
+    float:left;
+    margin:10px;
+}
+
+.section-f .section-wrapper .column2{
+    padding-top:300px;
+    margin-top:300px;
+    background-color:green;
+}
+
+/* F O R M */
+.section-f .section-wrapper .container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+  }
+  
+  .section-f .section-wrapper input[type=text],input[type=password], input[type=date],select, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .section-f .section-wrapper label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .section-f .section-wrapper .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .section-f .section-wrapper .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .section-f .section-wrapper .btn:hover {
+    background-color: #45a049;
+  }
+  
+  .section-f .section-wrapper a {
+    color: #2196F3;
+  }
+
+  .section-f .section-wrapper span.price {
+    float: right;
+    color: grey;
+  }
+
+
+
+
+
+
+
+
+/* 
 .section-f input, .section-f textarea{
     display:block;
     width:60%;
@@ -488,7 +562,11 @@ section{
     margin:auto;
     padding-top:10px;
     height:45px;
-}
+} */
+
+
+
+
 
 /* Section G - Footer 1*/
 .section-g{

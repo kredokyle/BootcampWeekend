@@ -204,10 +204,76 @@
 
         <section class="section-f">
             <article class="section-wrapper">
-                <div class="column"></div>
-                <div class="column">
-                    <img src="" alt="">
-                </div>
+                <article>
+                    <p class="sub-header">What Happens Here</p>
+                    <h2 class="header">Reservation Form</h2>
+                    <hr>
+                </article>
+                <form action="#">
+                    <div class="column column1">
+                        <div class="row">
+                            <div class="col-75">
+                                <div class="container">
+                                    <div class="col-50">
+                                        <label for="cname">Full Name</label>
+                                        <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                                        <label for="ccnum">Email</label>
+                                        <input type="text" id="ccnum" name="cardnumber" placeholder="example@gmail.com">
+                                        <label for="expmonth">Phone Number</label>
+                                        <input type="text" id="expmonth" name="expmonth" placeholder="000-0000">
+                                    
+                                        <label for="expyear">Reservation Details</label>
+                                        <select name="" id="">
+                                            <option value="">1 Person Table</option>
+                                            <option value="">2 Person Table</option>
+                                            <option value="">3 Person Table</option>
+                                        </select>
+                                    
+                                        <label for="cvv">Date</label>
+                                        <input type="date" id="cvv" name="Date" placeholder="352">
+                                
+                                        <label for="Morning">Morning</label>
+                                        <input type="radio" id="Morning" name="gender" value="Morning">
+                                        <label for="Afternoon">Afternoon</label>
+                                        <input type="radio" id="Afternoon" name="gender" value="Afternoon">
+                                    </div><!-- End col-50 -->
+                                </div><!-- End Container -->
+                            </div><!-- End col-75 -->
+                        </div><!-- End Row -->
+                    </div><!-- End Column1 -->
+
+                    <div class="column columnn2">
+                        <!-- row 2 -->
+                        <div class="row">
+                            <div class="col-75">
+                                <div class="container">
+                                    <div class="col-50">
+                                        <label for="fname">Addional Requests</label>
+                                        <textarea name="" id="" placeholder="Message" cols="30" rows="10" style="resize:none;"></textarea>
+                                    </div>
+                                    <div class="col-50">
+                                    <h3>Payment</h3>
+                                    <label for="fname">Payment Accepted Cards</label>
+                                    <div class="icon-container">
+                                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                    </div>
+                                    <label for="cname">Name on Card</label>
+                                    <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                                    <label for="ccnum">Credit card number</label>
+                                    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+
+                                </div>
+                            </div>
+                        </div><!-- End Row -->
+                        <label>
+                        <input type="checkbox" checked="checked" name="sameadr"> I Agree Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, itaque?
+                        </label>
+                        <input type="submit" value="Submit" class="btn">
+                    </div><!-- End Column2 -->
+                </form>
             </article>
         </section>
 
