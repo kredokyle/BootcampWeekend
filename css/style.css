@@ -231,11 +231,11 @@ section{
 }
 
 .section-b .box{
-    width: 22%;
+    width: 25%;
     /* border: 1px solid #000000; */
     float:left;
-    margin: 15px;
     text-align: left;
+    padding:20px;
 }
 .section-b .box img{
     width: 100%;
@@ -267,6 +267,8 @@ section{
     /* background-color: #eaeaea; */
     height: 500px;
     text-align:center;
+    margin-top:50px;
+    margin-bottom:30px;
 }
 
 .section-c .section-wrapper img{
@@ -355,10 +357,10 @@ section{
 }
 
 .section-d .box{
-    width: 22%;
+    width: 25%;
     float:left;
-    margin: 15px;
     text-align: left;
+    padding:20px;
 }
 .section-d .box img{
     width: 100%;
