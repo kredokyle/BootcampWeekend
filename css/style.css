@@ -27,6 +27,7 @@ a{
     color:#fff;
 }
 
+
 /* Nav Bar */
 .nav-wrapper{
     width:83.5%;
@@ -68,10 +69,10 @@ nav .nav-wrapper a:hover{
 }
 
 
-
 /* ATF */
 .atf{
     height: 670px;
+    margin-bottom:120px;
 }
 
 .atf-wrapper{
@@ -143,42 +144,53 @@ nav .nav-wrapper a:hover{
     letter-spacing: 2px;
 }
 
-/* Section Settings*/
-section{
-    padding-top: 100px;
-    padding-bottom: 100px;
+
+/* section a */
+
+.section-a{
+    /* background-color:tomato; */
+    width: 100%;
+    /* height: 100%; */
+    padding: 50px 0px;
+    
 }
 
 .section-wrapper{
-    width: 83.5%;
-    margin: auto;
-}
-
-/* Section A - two banner images */
-.section-a{
-    margin-top:50px;
-    height:400px;
-    /* background-color: #eaeaea; */
+    width:83.5%;
+ 
+    text-align: center;
+    margin:auto;
 }
 
 .section-column{
-    width: 50%;
-    /* background-color: royalblue; */
-    float: left;
-    padding: 0px 15px;
+    width:500px;
+    height: 300px;
+    display: inline-block;
     color: #ffffff;
+    
 }
 
-.section-column img{
-    width: 100%;
-    background-color: royalblue;
+.box-1{
+    
+    background:url('../images/merchandise1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
 }
+.box-2{
+    background:url('../images/merchandise2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: left;
+} 
 
 .section-a .content-header{
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     line-height: 50px;
-    position: absolute;
+    /* position: absolute; */
     margin:40px;
 }
 
@@ -188,21 +200,33 @@ section{
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 2px;
-    position: absolute;
-    margin-top: 190px;
+    /* position: absolute; */
+    /* margin-top: 190px; */
     margin-left:50px;
     color:#ffffff;
     text-decoration:underline;
 }
 
 
-/* Section B - COFFEE HOUSE MERCHANDISE */
+/* section b */
+
 .section-b{
-    background-color: #fff !important;
     text-align: center;
-    height: 900px;
 }
 
+.box{
+    display: inline-block;
+    width: 22%;
+    margin: 15px;
+}
+
+.section-b .box img{
+    width: 100%;
+}
+
+.section-b .box h5{
+    color: #312A26;
+}
 .section-b .sub-header{
     color: #c7a17a;
     font-family: 'Merriweather', serif;
@@ -229,22 +253,6 @@ section{
     margin:30px auto;
 
 }
-
-.section-b .box{
-    width: 25%;
-    /* border: 1px solid #000000; */
-    float:left;
-    text-align: left;
-    padding:20px;
-}
-.section-b .box img{
-    width: 100%;
-}
-
-.section-b .box h5{
-    color: #312A26;
-}
-
 .section-b .box .rating{
     color:#c7a17a;
     font-size: 20px;
@@ -261,41 +269,40 @@ section{
 }
 
 
-/* Section C - 1 banner image */
+/* section-c */
+
 .section-c{
-    color: #fff;
-    /* background-color: #eaeaea; */
-    height: 500px;
-    text-align:center;
-    margin-top:50px;
-    margin-bottom:30px;
+    /* background-color: burlywood; */
+    width:100%;
 }
 
-.section-c .section-wrapper img{
-    width: 100%;
+.section-c_content{
+    background:url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0px;
+    
 }
-.section-c .section-wrapper .content{
-    position: absolute;
-    margin:auto;
-    text-align: center;
-    padding-top: 100px;
-    width: 80%;
-}
-.section-c h4{
+.section-c .sub-header{
+    color: #c7a17a;
     font-family: 'Merriweather', serif;
     font-weight: 400;
     font-size: 18px;
     font-style: italic;
     line-height: 27px;
-    margin-top:-30px;
     padding-bottom: 20px;
+    /* display:block; */
 }
+
+
 
 .section-c .header{
     font-size: 55px;
     line-height: 60px;
     font-weight: 600;
     margin-bottom: 50px;
+    color:#ffffff;
 }
 
 .section-c .btn2:hover{
@@ -325,13 +332,23 @@ section{
     border-width: 2px;
     letter-spacing: 2px;
 }
-/* Section D - MERCHANDISE SALE */
+
+/* section d */
 .section-d{
     background-color: #fff !important;
     text-align: center;
-    height: 500px;
     padding: 20px 0px;
 }
+
+.section-d .box img{
+    width: 100%;
+}
+
+
+.section-d .box h5{
+    color: #312A26;
+}
+
 
 .section-d .sub-header{
     color: #c7a17a;
@@ -356,20 +373,6 @@ section{
     margin:50px auto;
 }
 
-.section-d .box{
-    width: 25%;
-    float:left;
-    text-align: left;
-    padding:20px;
-}
-.section-d .box img{
-    width: 100%;
-}
-
-.section-d .box h5{
-    color: #312A26;
-}
-
 .section-d .box .rating{
     color:#c7a17a;
     font-size: 20px;
@@ -385,30 +388,72 @@ section{
     line-height: 26px;
 }
 
-/* Section E - 4 banner images */
+/* section e */
+
 .section-e{
-    height:720px;
-    padding-top:150px;
+    width:100%;
+    /* background-color: orangered; */
+    
 }
 
 
-.section-column{
-    width: 50%;
-    float: left;
-    padding: 0px 15px;
+
+.section-e-column{
+    width: 43%;
+    display: inline-block;
+    /* padding: 0px 15px; */
     color: #ffffff;
+    /* background-color: orchid; */
+    text-align: left;
+    margin: 20px;
+    
 }
 
-.section-column img{
-    width: 100%;
+
+.section-e_coffee-1{
+ background: url('../images/merchandise3.jpg');
+ padding:110px 0px;
+ background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ 
 }
+
+.section-e_coffee-2{
+    background: url('../images/merchandise4.jpg');
+    padding:110px 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.section-e_coffee-3{
+    background: url('../images/merchandise5.jpg');
+    
+    padding:110px 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.section-e_coffee-4{
+    background: url('../images/merchandise6.jpg');
+    padding:110px 0px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 .section-e .content-header{
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     line-height: 50px;
-    position: absolute;
-    margin:40px;
+    /* position: absolute; */
+    /* margin:40px; */
+    margin-left:40px;
 }
 
 .section-e .content-button{
@@ -417,19 +462,24 @@ section{
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 2px;
-    position: absolute;
-    margin-top: 190px;
+    /* position: absolute; */
+    /* margin-top: 190px; */
     margin-left:50px;
     color:#ffffff;
     text-decoration:underline;
 }
+
+/* section f */
+
 
 /* Section F - Reservation Form */
 
 .section-f{
     padding-top:50px;
     padding-bottom:0px;
-    height:850px;
+    /* background-color: palevioletred; */
+    /* height: 100%; */
+        
 }
 
 .section-f .header{
@@ -454,12 +504,17 @@ section{
     width:48%;
     float:left;
     margin:10px;
+    /* display: inline-block; */
 }
 
 .section-f .section-wrapper .column2{
     padding-top:300px;
     margin-top:300px;
     background-color:green;
+}
+
+.clearfix{
+    clear: both;
 }
 
 /* F O R M */
@@ -529,10 +584,23 @@ section{
 }
 
 
+
+/* section g */
+
+
+.clearfix2{
+    clear: both;
+}
+
 /* Section G - Footer 1*/
 .section-g{
     color: #fff;
-    height:550px;
+    /* min-height:500px; */
+    background:url(../images/footer-image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
 .section-g .column{
@@ -540,6 +608,7 @@ section{
     width:23%;
     margin:0px 10px;
     padding-top:80px;
+    /* display: inline-block; */
 }
 
 .section-g .column h5{
@@ -617,6 +686,7 @@ section{
     border:0px;
 }
 
+
 /* Footer - Footer 2 */
 footer{
     color: #acacac;
@@ -625,6 +695,14 @@ footer{
     height:55px;
     padding-top:10px;
 }
+
+
+/*--- THIS IS ADDED BY BERNS--- */
+.all-rights{ 
+    text-align: right;
+    padding-bottom:20px;
+}
+/*---------------------------- */
 
 footer .footer-wrapper{
     width:80%;
@@ -652,4 +730,136 @@ footer .footer-wrapper .column ul li{
     list-style:none ;
     display:inline-block;
     padding: 0px 10px;
+}
+
+
+
+/* Media Query - ADDED BY BERNS */
+@media screen and (max-width:768px){
+    .atf .brandstamp{
+        font-size: 67px;
+        padding-top: 100px;
+    }
+
+    .atf .bg-image{
+        background-size: unset;
+    }
+
+    .atf .nav-links ul{
+        display: none;
+    }
+
+    .atf_menu-icon{
+        width: 30px;
+        height: 30px;
+    }
+    
+}
+
+@media  screen and (min-width:768px){
+    .atf_menu-icon{
+        display: none;
+
+    }
+}
+
+
+/* section a */
+
+@media screen and (max-width:768px){
+    .section-column{
+        width:100%;
+        height:250px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* section b */
+@media screen and (max-width:768px){
+    .box {
+        
+        width: 100%;
+        margin: 0px;
+    }
+    .section-b {
+        padding-bottom: 50px;
+    }
+}
+
+/* section c */
+
+@media screen and (max-width:768px){
+    .section-c_content {
+        padding: 100px 0px;
+    }
+
+    .section-c .header {
+        font-size: 35px;
+    }
+    .section-c {
+        padding-bottom: 50px;
+    }
+   
+}
+
+/* section-e */
+
+@media (max-width:768px){
+    .section-e-column {
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+    }
+}
+
+
+
+/* section-f */
+@media (max-width:768px){
+    .section-f .section-wrapper .column {
+        width: 100%;
+    }
+}
+
+
+/* section g */
+
+@media(max-width:768px){
+    .section-g{
+            padding-bottom: 70px;
+    }
+    .section-g .column {
+        float: left;
+        width: 100%;
+        margin: 0px ;
+    }
+    table {
+        width: 100%;
+    }
+
+    .section-g .column1 table {
+        text-align: center;
+    }
+
+}
+
+/* footer */
+
+@media(max-width:768px){
+    footer{
+        height:100%;
+        text-align: center;
+    }
+
+    footer .footer-wrapper .column {
+        width: 100%;
+    }
+
+    footer .footer-wrapper .column ul {
+        margin-left: 0px;
+    }
+    
+    .all-rights{
+        text-align: center;
+    }
 }
