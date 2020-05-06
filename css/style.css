@@ -252,8 +252,8 @@ nav .nav-wrapper a:hover{
     width: 8%;
     border: 1px solid #c7a17a;
     margin:30px auto;
-
 }
+
 .section-b .box .rating{
     color:#c7a17a;
     font-size: 20px;
@@ -398,7 +398,6 @@ nav .nav-wrapper a:hover{
 }
 
 
-
 .section-e-column{
     width: 43%;
     display: inline-block;
@@ -407,13 +406,12 @@ nav .nav-wrapper a:hover{
     /* background-color: orchid; */
     text-align: left;
     margin: 20px;
-    
 }
 
 
 .section-e_coffee-1{
  background: url('../images/merchandise3.jpg');
- padding:110px 0px;
+ padding:90px 0px;
  background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -422,7 +420,7 @@ nav .nav-wrapper a:hover{
 
 .section-e_coffee-2{
     background: url('../images/merchandise4.jpg');
-    padding:110px 0px;
+    padding:90px 0px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -432,7 +430,7 @@ nav .nav-wrapper a:hover{
 .section-e_coffee-3{
     background: url('../images/merchandise5.jpg');
     
-    padding:110px 0px;
+    padding:90px 0px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -441,7 +439,7 @@ nav .nav-wrapper a:hover{
 
 .section-e_coffee-4{
     background: url('../images/merchandise6.jpg');
-    padding:110px 0px;
+    padding:90px 0px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -463,23 +461,17 @@ nav .nav-wrapper a:hover{
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 2px;
-    /* position: absolute; */
-    /* margin-top: 190px; */
     margin-left:50px;
     color:#ffffff;
     text-decoration:underline;
 }
 
-/* section f */
 
 
 /* Section F - Reservation Form */
-
 .section-f{
     padding-top:50px;
-    padding-bottom:0px;
-    /* background-color: palevioletred; */
-    /* height: 100%; */
+    padding-bottom:50px;
         
 }
 
@@ -526,7 +518,7 @@ nav .nav-wrapper a:hover{
     border-radius: 3px;
   }
   
-  .section-f .section-wrapper input[type=text],input[type=password], input[type=date],select, textarea {
+  .section-f .section-wrapper input[type=text],input[type=password], input[type=date], input[type=email],select, textarea {
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
@@ -596,12 +588,11 @@ nav .nav-wrapper a:hover{
 /* Section G - Footer 1*/
 .section-g{
     color: #fff;
-    /* min-height:500px; */
+    padding-bottom:50px;
     background:url(../images/footer-image.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
 }
 
 .section-g .column{
