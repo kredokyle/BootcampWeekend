@@ -71,7 +71,6 @@ nav .nav-wrapper a:hover{
     color:#c7a17a;
 }
 
-
 /* ATF */
 .atf{
     height: 670px;
@@ -90,7 +89,6 @@ nav .nav-wrapper a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    /* top: 0; */
     height: 670px;
     z-index: -1;
     width: 100%;
@@ -110,6 +108,7 @@ nav .nav-wrapper a:hover{
 .atf .text-green{
     color: #005E20;
 }
+
 .atf .atf-paragraph{
     color: #312a26;
     font-family: 'Merriweather', serif;
@@ -147,19 +146,15 @@ nav .nav-wrapper a:hover{
     letter-spacing: 2px;
 }
 
-
 /* section a */
-
 .section-a{
     width: 100%;
     padding: 50px 0px;
     padding-bottom:100px;
-    
 }
 
 .section-wrapper{
     width:83.5%;
- 
     text-align: center;
     margin:auto;
 }
@@ -170,7 +165,6 @@ nav .nav-wrapper a:hover{
     display: inline-block;
     color: #ffffff;
     margin: 0px 20px;
-    
 }
 
 .box-1{
@@ -207,9 +201,7 @@ nav .nav-wrapper a:hover{
     text-decoration:underline;
 }
 
-
 /* section b */
-
 .section-b{
     text-align: center;
     padding-bottom:80px;
@@ -228,6 +220,7 @@ nav .nav-wrapper a:hover{
 .section-b .box h5{
     color: #312A26;
 }
+
 .section-b .sub-header{
     color: #c7a17a;
     font-family: 'Merriweather', serif;
@@ -269,9 +262,7 @@ nav .nav-wrapper a:hover{
     line-height: 26px;
 }
 
-
 /* section-c */
-
 .section-c{
     width:100%;
     padding-bottom:70px;
@@ -283,8 +274,8 @@ nav .nav-wrapper a:hover{
     background-position: center;
     background-repeat: no-repeat;
     padding: 150px 0px;
-    
 }
+
 .section-c .sub-header{
     color: #c7a17a;
     font-family: 'Merriweather', serif;
@@ -293,10 +284,7 @@ nav .nav-wrapper a:hover{
     font-style: italic;
     line-height: 27px;
     padding-bottom: 20px;
-    /* display:block; */
 }
-
-
 
 .section-c .header{
     font-size: 55px;
@@ -346,11 +334,9 @@ nav .nav-wrapper a:hover{
     width: 100%;
 }
 
-
 .section-d .box h5{
     color: #312A26;
 }
-
 
 .section-d .sub-header{
     color: #c7a17a;
@@ -392,32 +378,25 @@ nav .nav-wrapper a:hover{
 }
 
 /* section e */
-
 .section-e{
     width:100%;
     padding-bottom:30px;
-    
 }
-
 
 .section-e-column{
     width: 43%;
     display: inline-block;
-    /* padding: 0px 15px; */
     color: #ffffff;
-    /* background-color: orchid; */
     text-align: left;
     margin: 20px;
 }
 
-
 .section-e_coffee-1{
- background: url('../images/merchandise3.jpg');
- padding:90px 0px;
- background-size: cover;
+    background: url('../images/merchandise3.jpg');
+    padding:90px 0px;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
- 
 }
 
 .section-e_coffee-2{
@@ -428,7 +407,6 @@ nav .nav-wrapper a:hover{
     background-repeat: no-repeat;
 }
 
-
 .section-e_coffee-3{
     background: url('../images/merchandise5.jpg');
     
@@ -438,7 +416,6 @@ nav .nav-wrapper a:hover{
     background-repeat: no-repeat;
 }
 
-
 .section-e_coffee-4{
     background: url('../images/merchandise6.jpg');
     padding:90px 0px;
@@ -447,13 +424,10 @@ nav .nav-wrapper a:hover{
     background-repeat: no-repeat;
 }
 
-
 .section-e .content-header{
     font-family: 'Oswald', sans-serif;
     font-size: 35px;
     line-height: 50px;
-    /* position: absolute; */
-    /* margin:40px; */
     margin-left:40px;
 }
 
@@ -468,13 +442,10 @@ nav .nav-wrapper a:hover{
     text-decoration:underline;
 }
 
-
-
 /* Section F - Reservation Form */
 .section-f{
     padding-top:50px;
     padding-bottom:80px;
-        
 }
 
 .section-f .header{
@@ -483,7 +454,6 @@ nav .nav-wrapper a:hover{
     line-height: 40px;
     text-align:center;
 }
-
 
 .section-f hr{
     color:#c7a17a;
@@ -494,12 +464,10 @@ nav .nav-wrapper a:hover{
     margin-bottom:50px;
 }
 
-
 .section-f .section-wrapper .column{
     width:48%;
     float:left;
     margin:10px;
-    /* display: inline-block; */
 }
 
 .section-f .section-wrapper .column2{
@@ -578,11 +546,7 @@ nav .nav-wrapper a:hover{
     margin-right:20px;
 }
 
-
-
 /* section g */
-
-
 .clearfix2{
     clear: both;
 }
@@ -616,7 +580,6 @@ nav .nav-wrapper a:hover{
     font-weight:400;
     text-align:left;
 }
-
 
 .section-g .column2 span{
     color:#c7a17a;
@@ -680,7 +643,6 @@ nav .nav-wrapper a:hover{
     border:0px;
 }
 
-
 /* Footer - Footer 2 */
 footer{
     color: #acacac;
@@ -690,14 +652,12 @@ footer{
     padding-top:10px;
 }
 
-
 /*--- THIS IS ADDED BY BERNS--- */
 .all-rights{ 
     text-align: right;
     padding-bottom:20px;
 }
 /*---------------------------- */
-
 footer .footer-wrapper{
     width:80%;
     margin:auto;
@@ -726,8 +686,6 @@ footer .footer-wrapper .column ul li{
     padding: 0px 10px;
 }
 
-
-
 /* Media Query - ADDED BY BERNS */
 @media screen and (max-width:768px){
     .atf .brandstamp{
@@ -747,19 +705,15 @@ footer .footer-wrapper .column ul li{
         width: 30px;
         height: 30px;
     }
-    
 }
 
 @media  screen and (min-width:768px){
     .atf_menu-icon{
         display: none;
-
     }
 }
 
-
 /* section a */
-
 @media screen and (max-width:768px){
     .section-column{
         width: 100%;
@@ -768,7 +722,6 @@ footer .footer-wrapper .column ul li{
         margin-bottom: 20px;
     }
 }
-
 
 /* section b */
 @media screen and (max-width:768px){
@@ -807,8 +760,6 @@ footer .footer-wrapper .column ul li{
     }
 }
 
-
-
 /* section-f */
 @media (max-width:768px){
     .section-f .section-wrapper .column {
@@ -816,9 +767,7 @@ footer .footer-wrapper .column ul li{
     }
 }
 
-
 /* section g */
-
 @media(max-width:768px){
     .section-g{
             padding-bottom: 70px;
@@ -835,7 +784,6 @@ footer .footer-wrapper .column ul li{
     .section-g .column1 table {
         text-align: center;
     }
-
 }
 
 /* footer */
